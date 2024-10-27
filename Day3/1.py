@@ -1,0 +1,5 @@
+lst = eval(input("Enter the numbers:-\n"))
+sum = sum(lst)
+average = sum/len(lst)
+print(f"The sum of numbers in list is {sum}")
+print(f"The average of number in list is {average}")
